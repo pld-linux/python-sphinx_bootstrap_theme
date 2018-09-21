@@ -6,14 +6,14 @@
 Summary:	Sphinx Bootstrap Theme - Python 2.x version
 Summary(pl.UTF-8):	Motyw Bootstrap dla narzędzia Sphinx - wersja dla Pythona 2.x
 Name:		python-sphinx_bootstrap_theme
-Version:	0.4.14
-Release:	2
+Version:	0.6.5
+Release:	1
 License:	MIT
 Group:		Libraries/Python
-#Source0Download: https://pypi.python.org/simple/sphinx-bootstrap-theme/
+#Source0Download: https://pypi.org/simple/sphinx-bootstrap-theme/
 Source0:	https://files.pythonhosted.org/packages/source/s/sphinx-bootstrap-theme/sphinx-bootstrap-theme-%{version}.tar.gz
-# Source0-md5:	2cd5e33786c25e48363dcd7f07ac2cdf
-URL:		https://pypi.python.org/pypi/sphinx-bootstrap-theme/
+# Source0-md5:	0af7c42fcb47b805a3b3bc9590fa5c1a
+URL:		https://pypi.org/project/sphinx-bootstrap-theme/
 %if %{with python2}
 BuildRequires:	python-modules >= 1:2.5
 BuildRequires:	python-setuptools
@@ -24,7 +24,7 @@ BuildRequires:	python3-setuptools
 %endif
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.714
-Requires:	python-Sphinx >= 1.2.1
+Requires:	python-Sphinx >= 1.6.1
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -45,7 +45,7 @@ liczby różnych motywów CSS Bootswatch.
 Summary:	Sphinx Bootstrap Theme - Python 3.x version
 Summary(pl.UTF-8):	Motyw Bootstrap dla narzędzia Sphinx - wersja dla Pythona 3.x
 Group:		Libraries/Python
-Requires:	python3-Sphinx >= 1.2.1
+Requires:	python3-Sphinx >= 1.6.1
 
 %description -n python3-sphinx_bootstrap_theme
 This Sphinx theme integrates the Bootstrap CSS/JavaScript framework
