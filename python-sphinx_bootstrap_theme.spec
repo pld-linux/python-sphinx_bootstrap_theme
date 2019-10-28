@@ -7,7 +7,7 @@ Summary:	Sphinx Bootstrap Theme - Python 2.x version
 Summary(pl.UTF-8):	Motyw Bootstrap dla narzędzia Sphinx - wersja dla Pythona 2.x
 Name:		python-sphinx_bootstrap_theme
 Version:	0.7.1
-Release:	1
+Release:	2
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/sphinx-bootstrap-theme/
